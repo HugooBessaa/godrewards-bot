@@ -9,7 +9,7 @@ client.sKey = require('./SpotifyKeys.json');
 
 client.on('ready', () => {
 		console.log('O bot esta ligado!');
-		client.user.setActivity("Convites = Recompensas", {type: "PLAYING"});
+		client.user.setActivity("Quero minha tag ass: Hugo", {type: "PLAYING"});
 	});
 client.on('message', async message => {
     if (message.author.bot) return;
